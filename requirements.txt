@@ -1,0 +1,10 @@
+transformers==4.31.0
+text_hammer
+accelerate
+tensorflow
+scikit-learn
+imbalanced-learn
+matplotlib
+seaborn
+pandas
+numpy
