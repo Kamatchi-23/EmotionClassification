@@ -9,7 +9,7 @@ The purpose of this project is to examine the different NLP models for the purpo
 
 ## Dataset
 
-- **Source:** [tweet_eval on Hugging Face](https://huggingface.co/datasets/tweet_eval)
+- **Source:** twitter_eval dataset from HuggingFace Platform
 - **Files Needed:** `train.parquet`, `validation.parquet`, `test.parquet`
 
 ## Models Explored:
@@ -73,7 +73,7 @@ pip install transformers==4.31.0 text_hammer accelerate tensorflow scikit-learn 
    ```
 
 2. **Download the dataset**  
-   Download the [tweet_eval dataset](https://huggingface.co/datasets/tweet_eval) and place `train.parquet`, `validation.parquet`, and `test.parquet` in the project directory.
+   Download the twitter_eval dataset from HuggingFace Platform or use the `train.parquet`, `validation.parquet`, and `test.parquet` files in the project directory.
 
 3. **(Optional) Google Colab**  
    If using Colab, mount your Google Drive and upload the dataset files as shown in the notebook.
