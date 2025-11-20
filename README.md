@@ -1,4 +1,7 @@
 # Mental State Analysis of Social Media Users | Emotions Classification on Twitter Tweets 
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 ## Project Aim:
 The purpose of this project is to examine the different NLP models for the purpose of analyzing the mental health state and predicting the different types of emotion expressed on Social Media platforms by the users. For this reason, the Twitter dataset from the Hugging Face platform has been considered, containing around 5.05k labeled data records split between train, test and validation sets with four classes of emotions:
 
