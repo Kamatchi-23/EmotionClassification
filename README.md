@@ -9,7 +9,7 @@ The purpose of this project is to examine the different NLP models for the purpo
 
 ## Dataset
 
-- **Source:** twitter_eval dataset from HuggingFace Platform
+- **Source:** [tweet_eval emotion dataset on Hugging Face](https://huggingface.co/datasets/cardiffnlp/tweet_eval/viewer/emotion?views%5B%5D=emotion_train)
 - **Files Needed:** `train.parquet`, `validation.parquet`, `test.parquet`
 
 ## Models Explored:
@@ -73,7 +73,7 @@ pip install transformers==4.31.0 text_hammer accelerate tensorflow scikit-learn 
    ```
 
 2. **Download the dataset**  
-   Download the twitter_eval dataset from HuggingFace Platform or use the `train.parquet`, `validation.parquet`, and `test.parquet` files in the project directory.
+   Download the tweet_eval dataset from HuggingFace Platform or use the `train.parquet`, `validation.parquet`, and `test.parquet` files in the project directory.
 
 3. **(Optional) Google Colab**  
    If using Colab, mount your Google Drive and upload the dataset files as shown in the notebook.
