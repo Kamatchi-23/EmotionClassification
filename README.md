@@ -68,8 +68,8 @@ pip install transformers==4.31.0 text_hammer accelerate tensorflow scikit-learn 
 
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/Kamatchi-23/NLP_A3_Group05.git
-   cd NLP_A3_Group05
+   git clone https://github.com/Kamatchi-23/EmotionClassification.git 
+   cd EmotionClassification
    ```
 
 2. **Download the dataset**  
@@ -107,7 +107,7 @@ pip install transformers==4.31.0 text_hammer accelerate tensorflow scikit-learn 
 ## File Details
 
 - `final_implementation.ipynb` — Final implementation of all models, results, and custom inference.
-- `SVM_and_BERT_Sentiment_analysis_nlp.ipynb` — Exploration and implementation of SVM and BERT.
+- `SVM_and_BERT_implementation.ipynb` — Exploration and implementation of SVM and BERT.
 - `StopWords_removed_implementation.ipynb` — Experimental implementation with stop words removal and lemmatization. It was observed that performance was slightly lower with stop words removed which could be attributed to the loss of data with stop words removed from short pieces of texts such as tweets, where the given dataset contained maximum length of tweets to be containing 33 words even without basic cleaning
 
 ## Notes
